@@ -1,0 +1,13 @@
+def gandl (a,b):
+    if(a>b):
+        print("a is greater than b")
+        print(a+b)
+    else:
+        print("a is not greater than b")
+
+gandl(9,7)        
+
+def name(fname,lname='Gupta'):
+    print(f'hi my first name is {fname} and my second name is {lname}')
+
+name('Manish')    
